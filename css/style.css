@@ -1,0 +1,53 @@
+.jumbotron h1.display-4{
+    color: red;
+}
+
+nav.nav span{
+    color: #dd0f0f;
+}
+
+.jumbotron .lead a{
+    color: blueviolet;
+}
+
+div.row.mb-2 > div:first-of-type {
+    color:  #dd0f0f;
+}
+
+div.col-md-8.blog-main > div.blog-post > hr {
+    background-color: red;
+}
+
+nav.nav > span:nth-of-type(even){
+    background-color: rgb(244, 248, 8);
+}
+
+aside > div.p-4 ol.mb-0 li a {
+    color: yellow;
+}
+
+
+main .blog-main > div:nth-of-type(2) h2 + p a  {
+    background-color: #dd0f0f;
+    color: #fff;
+}
+
+main .blog-main > div:nth-of-type(3) li:nth-of-type(2){
+    background-color: blue;
+    color: #fff;
+}
+
+a.float-right.mb-3.mr-3{
+    background-color: blueviolet;
+    color: #fff;
+}
+
+nav.blog-pagination a.btn-outline-secondary{
+    background-color: aqua;
+}
+
+
+footer.blog-footer a:nth-of-type(2){
+    background-color: #dd0f0f;
+    color: #fff;
+}
