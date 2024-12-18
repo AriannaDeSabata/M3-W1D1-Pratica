@@ -22,7 +22,6 @@ function removeCont(){
 
 
 let author = document.querySelectorAll("main .blog-main > div h2 + p a ")
-let authorSelect
 
 author.forEach((el) => {el.addEventListener("mouseover", function(){
     alert(el.textContent)
